@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "wol": "^1.0.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "wol",
+  "description": "<br /> <p align=\"center\">   <a href=\"https://github.com/github_username/repo_name\">     <img src=\"images/logo.png\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filippofinke/wol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filippofinke/wol/issues"
+  },
+  "homepage": "https://github.com/filippofinke/wol#readme"
+}
