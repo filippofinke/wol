@@ -33,7 +33,8 @@
 
 ## About The Project
 
-![Demo](/images/demo.png)
+<img src="/images/demo.png" width="300"/>
+
 
 ### Built With
 
