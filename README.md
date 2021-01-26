@@ -33,7 +33,9 @@
 
 ## About The Project
 
-<img src="/images/demo.png" width="300"/>
+<p align="center">
+  <img src="/images/demo.png" width="300"/>
+</p>
 
 
 ### Built With
