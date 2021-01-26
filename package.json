@@ -2,13 +2,17 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
     "wol": "^1.0.7"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
+  "proxy": "http://127.0.0.1:80/",
   "name": "wol",
-  "description": "<br /> <p align=\"center\">   <a href=\"https://github.com/github_username/repo_name\">     <img src=\"images/logo.png\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
+  "description": "Turn on your devices using Wake On Lan",
   "version": "1.0.0",
   "main": "server.js",
   "repository": {
@@ -16,9 +20,27 @@
     "url": "git+https://github.com/filippofinke/wol.git"
   },
   "author": "",
+  "homepage": "/",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/filippofinke/wol/issues"
   },
-  "homepage": "https://github.com/filippofinke/wol#readme"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

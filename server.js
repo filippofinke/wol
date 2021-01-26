@@ -25,7 +25,7 @@ if (isDevelopment) {
   });
 }
 
-app.use(express.static("public"));
+app.use(express.static("build"));
 
 app.use((req, res, next) => {
   if (req.headers.authorization == password) {

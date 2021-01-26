@@ -2,36 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/img/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="shortcut icon" href="/img/icon.png" type="image/png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css" />
     <title>Wake On Lan</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand">Wake On Lan</a>
-        <form class="d-flex">
-          <button id="logout" class="btn btn-dark" style="display: none;">Logout</button>
-        </form>
-      </div>
-    </nav>
-    <div class="container">
-      <form id="login" class="mx-auto mt-5" style="max-width: 300px; display: none">
-        <div class="form-group">
-          <input type="password" class="form-control" name="token" placeholder="Token" />
-        </div>
-        <div class="d-grid gap-2 mt-3">
-          <button type="submit" class="btn btn-dark">Login</button>
-        </div>
-      </form>
-      <div class="row" id="devices">
-        <div class="text-center mt-5">
-          <div class="spinner-border"></div>
-        </div>
-      </div>
-    </div>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/index.js"></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
