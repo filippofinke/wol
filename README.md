@@ -42,6 +42,7 @@
 
 * Node
 * Express
+* React
 
 ## Getting Started
 
