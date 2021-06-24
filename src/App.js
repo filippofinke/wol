@@ -6,14 +6,14 @@ import LoginForm from "./components/LoginForm";
 import { AuthContext } from "./contexts/AuthContext";
 
 function App() {
-  const { token } = useContext(AuthContext);
+	const { token } = useContext(AuthContext);
 
-  return (
-    <React.Fragment>
-      <Navbar />
-      <Container>{token ? <DevicesList /> : <LoginForm />}</Container>
-    </React.Fragment>
-  );
+	return (
+		<React.Fragment>
+			<Navbar />
+			<Container>{token ? <DevicesList /> : <LoginForm />}</Container>
+		</React.Fragment>
+	);
 }
 
 export default App;
